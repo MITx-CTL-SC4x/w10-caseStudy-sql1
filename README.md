@@ -1,7 +1,7 @@
-# SC4x | Week 10 | Case Study | Testing v1
+# SC4x | Week 10 | Case Study | Q1
 
 ## Overview
-The app is designed for initial development and testing that evaluates and provides feedback on a single SQL query.
+The app evaluates and provides feedback on a single SQL query using an AI API (OpenAI, Gemini, or Claude).
 
 ## Prerequisites
 - Python 3.6 or later
@@ -55,13 +55,13 @@ streamlit run main.py
 
 This will open the App in your web browser, typically at http://localhost:8501.
 
-### Running on Streamlit
-
-*TODO: Set up API key credentials as described at https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management*
+### Deploying on Streamlit for the First Time
 
 1. Sign into share.streamlit.io
 2. Click 'Deploy an app' and then paste in your GitHub URL
-3. TBD: API key management (see above)
+3. Put API keys in Advanced Settings (see instructions below)
+
+Instructions for API key management are at https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management
 
 ## Credit
 This app is based on the 'AI MicroApp (Assistant)' by John Swope found at https://github.com/jswope00/AI-Microapp-Template-Assistant/tree/main
