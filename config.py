@@ -29,7 +29,7 @@ PHASES = {
     "attempt1": {
         "type": "text_area",
         "height": 200,
-        "label": """Please enter your query in the text box below.""",
+        "label": """Question 1: Please enter your query in the text box below.""",
         "instructions": """ The correct answer to this question:
     SELECT count(DISTINCT customer_id)
     FROM Customers
