@@ -29,9 +29,9 @@ PHASES = {
     "attempt1": {
         "type": "text_area",
         "height": 200,
-        "label": """Question 1: Please enter your query in the text box below.""",
-        "instructions": """ The correct answer to this question:
-    SELECT count(DISTINCT customer_id)
+        "label": """How many customers are in 'sao paulo'? Please enter your SQL query below.""",
+        "instructions": """ For this question, the students were asked to write a query to count the number of customers are in city of 'sao paulo'. The correct SQL query for this question:
+    SELECT COUNT(DISTINCT customer_id)
     FROM Customers
     WHERE customer_city = 'sao paulo';
 Provide compare the following student submission with the correct answer above. Please provide feedback on the student submission. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. """,
@@ -46,8 +46,8 @@ Provide compare the following student submission with the correct answer above. 
         "type": "text_area",
         "height": 200,
         "label": """Do you want to try again?""",
-        "instructions": """ The correct answer to this question:
-    SELECT count(DISTINCT customer_id)
+        "instructions": """ For this question, the students were asked to write a query to count the number of customers are in city of 'sao paulo'. The correct SQL query for this question:
+    SELECT COUNT(DISTINCT customer_id)
     FROM Customers
     WHERE customer_city = 'sao paulo';
 Provide compare the following student submission with the correct answer above. Please provide feedback on the student submission. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. """,
