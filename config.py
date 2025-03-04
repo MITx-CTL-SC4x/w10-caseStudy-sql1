@@ -1,18 +1,18 @@
 ########  GENERAL APP INFORMATION  ##############
 
 APP_TITLE = None
-# APP_TITLE = "SC4x | Case Study with AI Assistant"
+# APP_TITLE = "SC4x | Week 10 | Case Study | SQL 1"
 
 APP_INTRO = None
-# APP_INTRO = """This app tests using GenAI tools as a feedback assistant for a case study exercise."""
+# APP_INTRO = """The app evaluates and provides feedback on a single SQL query using an AI API (OpenAI, Gemini, or Claude)."""
 
 APP_HOW_IT_WORKS = None
 # APP_HOW_IT_WORKS = """ """
 
 SHARED_ASSET = {}
 # SHARED_ASSET = {
-#     "name":"Olist Database Description",
-#     "path":"olist_database_description.pdf",
+#     "name":"NAME",
+#     "path":"FILE.pdf",
 #     "button_text":"Read this PDF first"
 # }
 
@@ -63,7 +63,7 @@ Provide compare the following student submission with the correct answer above. 
 ######## AI CONFIGURATION #############
 
 ########## AI ASSISTANT CONFIGURATION #######
-ASSISTANT_NAME = "testing_v1_1"
+ASSISTANT_NAME = "sc4x_wk10_CaseStudy_SQL"
 ASSISTANT_INSTRUCTIONS = """ You are an expert in SQL and overseeing a course where students are learning the basics of SQL. """
 
 LLM_CONFIGURATION = {
