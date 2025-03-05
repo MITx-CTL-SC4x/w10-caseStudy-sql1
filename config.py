@@ -30,11 +30,7 @@ PHASES = {
         "type": "text_area",
         "height": 200,
         "label": """Write a query to calculate the number of customers in the dataset from the city of 'sao paulo'.""",
-        "instructions": """ For this question, the students were asked to write a query to count the number of customers are in city of 'sao paulo'. The correct SQL query for this question:
-    SELECT COUNT(DISTINCT customer_id)
-    FROM Customers
-    WHERE customer_city = 'sao paulo';
-Provide compare the following student submission with the correct answer above. Please provide feedback on the student submission if their solution is not correct. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. """,
+        "instructions": """ This is the student's first submission. They can follow up two more times. """,
         "value": " ",
         "scored_phase": False,
         "rubric": """
@@ -46,11 +42,19 @@ Provide compare the following student submission with the correct answer above. 
         "type": "text_area",
         "height": 200,
         "label": """Do you want to try again?""",
-        "instructions": """ For this question, the students were asked to write a query to count the number of customers are in city of 'sao paulo'. The correct SQL query for this question:
-    SELECT COUNT(DISTINCT customer_id)
-    FROM Customers
-    WHERE customer_city = 'sao paulo';
-Provide compare the following student submission with the correct answer above. Please provide feedback on the student submission if their solution is not correct. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. """,
+        "instructions": """ This is the student's second submission. They can follow up one more time. """,
+        "value": " ",
+        "scored_phase": False,
+        "rubric": """
+            None
+        """,
+        "minimum_score": 2
+    },
+    "attempt3": {
+        "type": "text_area",
+        "height": 200,
+        "label": """Do you want to try again?""",
+        "instructions": """ This is the student's third and last submission. """,
         "value": " ",
         "scored_phase": False,
         "rubric": """
@@ -64,7 +68,11 @@ Provide compare the following student submission with the correct answer above. 
 
 ########## AI ASSISTANT CONFIGURATION #######
 ASSISTANT_NAME = "sc4x_wk10_CaseStudy_SQL"
-ASSISTANT_INSTRUCTIONS = """ You are an expert in SQL and overseeing a course where students are learning the basics of SQL. """
+ASSISTANT_INSTRUCTIONS = """ You are an expert in SQL and the instructor of a course where students are learning the basics of SQL. The students where asked to write a query to count the number of customers in the city of 'sao paulo'. The correct SQL query for this question is:
+    SELECT COUNT(DISTINCT customer_id)
+    FROM Customers
+    WHERE customer_city = 'sao paulo';
+Compare the following student submissions with the correct answer above. Provide feedback on the student submission if their solution is not correct. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. """
 
 LLM_CONFIGURATION = {
     "gpt-4-turbo":{
