@@ -4,7 +4,7 @@ APP_TITLE = None
 # APP_TITLE = "SC4x | Week 10 | Case Study | SQL 1"
 
 APP_INTRO = None
-# APP_INTRO = """The app evaluates and provides feedback on a single SQL query using an AI API (OpenAI, Gemini, or Claude)."""
+# APP_INTRO = """The app uses an AI API (OpenAI, Gemini, or Claude) to evaluate and provide feedback on a SQL query to calculate the number of customers in the dataset from the city of 'sao paulo'."""
 
 APP_HOW_IT_WORKS = None
 # APP_HOW_IT_WORKS = """ """
@@ -29,7 +29,7 @@ PHASES = {
     "attempt1": {
         "type": "text_area",
         "height": 200,
-        "label": """How many customers are in 'sao paulo'? Please enter your SQL query in the box below.""",
+        "label": """Write a query to calculate the number of customers in the dataset from the city of 'sao paulo'.""",
         "instructions": """ For this question, the students were asked to write a query to count the number of customers are in city of 'sao paulo'. The correct SQL query for this question:
     SELECT COUNT(DISTINCT customer_id)
     FROM Customers

@@ -1,7 +1,7 @@
 # SC4x | Week 10 | Case Study | SQL 1
 
 ## Overview
-The app evaluates and provides feedback on a single SQL query using an AI API (OpenAI, Gemini, or Claude).
+The app uses an AI API (OpenAI, Gemini, or Claude) to evaluate and provide feedback on a SQL query to calculate the number of customers in the dataset from the city of 'sao paulo'.
 
 ## Prerequisites
 - Python 3.6 or later
