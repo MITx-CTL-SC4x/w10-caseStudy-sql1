@@ -66,7 +66,7 @@ PHASES = {
                 SELECT COUNT(DISTINCT customer_id)
                 FROM Customers
                 WHERE customer_city = 'sao paulo';
-            Compare the following student submission with the correct answer above. Provide feedback on the student submission if their solution is not correct. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. This is the student's third and last submission. """,
+            Compare the following student submission with the correct answer above. Provide feedback on the student submission if their solution is not correct. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. This is the student's last submission. They can't ask again. """,
         "value": " ",
         "scored_phase": False,
         "rubric": """
