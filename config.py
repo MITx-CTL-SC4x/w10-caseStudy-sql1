@@ -34,7 +34,7 @@ PHASES = {
     SELECT COUNT(DISTINCT customer_id)
     FROM Customers
     WHERE customer_city = 'sao paulo';
-Provide compare the following student submission with the correct answer above. Please provide feedback on the student submission. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. The capitalization and other format characteristics for tables, column names, and records (e.g. city names) are exactly as specified in the correct provided above. Don't provide suggestions on case sensitivity or the spelling of table and column names unless the student's submission deviates from the correct solution above. """,
+Provide compare the following student submission with the correct answer above. Please provide feedback on the student submission if their solution is not correct. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. """,
         "value": " ",
         "scored_phase": False,
         "rubric": """
@@ -50,7 +50,7 @@ Provide compare the following student submission with the correct answer above. 
     SELECT COUNT(DISTINCT customer_id)
     FROM Customers
     WHERE customer_city = 'sao paulo';
-Provide compare the following student submission with the correct answer above. Please provide feedback on the student submission. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. The capitalization and other format characteristics for tables, column names, and records (e.g. city names) are exactly as specified in the correct provided above. Don't provide suggestions on case sensitivity or the spelling of table and column names unless the student's submission deviates from the correct solution above. """,
+Provide compare the following student submission with the correct answer above. Please provide feedback on the student submission if their solution is not correct. Do not provide the correct answer. Instead, provide guidance to help the student identify where they might be missing something in their code. """,
         "value": " ",
         "scored_phase": False,
         "rubric": """
