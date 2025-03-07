@@ -61,7 +61,7 @@ PHASES = {
     "attempt3": {
         "type": "text_area",
         "height": 200,
-        "label": """Do you want to try again?""",
+        "label": """Do you want to try one last time?""",
         "instructions": """ The student was asked to write a query to count the number of customers in the city of 'sao paulo'. The correct SQL query for this question is:
                 SELECT COUNT(DISTINCT customer_id)
                 FROM Customers
