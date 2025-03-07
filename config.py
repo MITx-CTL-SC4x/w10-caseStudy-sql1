@@ -18,7 +18,10 @@ SHARED_ASSET = {}
 
 HTML_BUTTON = {}
 
-COMPLETION_MESSAGE = "Thank you for submitting a response!"
+COMPLETION_MESSAGE = """Thank you for submitting a response! The correct SQL query for this question is:
+                SELECT COUNT(DISTINCT customer_id)
+                FROM Customers
+                WHERE customer_city = 'sao paulo';"""
 COMPLETION_CELEBRATION = False
 
 SCORING_DEBUG_MODE = False
